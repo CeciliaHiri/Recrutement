@@ -1,0 +1,25 @@
+/* Ficher css de Mini_site_webRecettes.html pour le print*/
+
+
+h1,h2,h3,h4,h5,h6{
+    color:#666;
+}
+
+
+.header,footer{
+    display:none;
+}
+
+.banner{
+    background-image:none;
+}
+.banner div{
+    background-color: transparent;
+    padding: 0;  
+}
+
+.banner h2{
+    color:#333;
+    text-align:left;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="page contact">
+    <link rel="stylesheet" href="site_webRecettes_stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Fontawesome/css/all.min.css">
+
+    <title>Mon mini site web - Contact</title>
+</head>
+<body>
+<div class="header">
+    <div class="wrap flex">
+        <header class="logo">
+            <a href="index.html" title="Retour à l'accueil">
+                <h1><i class="fas fa-utensils"></i>Simplement bon</h1>
+            </a>
+
+        </header>
+  
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Entrées.html">Entrées</a></li>
+                <li><a href="Plats.html">Plats</a></li>
+                <li><a href="Desserts.html">Desserts</a></li>
+                <li><a class="current" href="Contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+
+    </div>
+</div>
+
+
+<main>
+    <article>
+        <div class="banner">
+            <div>
+            <h2>Contactez-nous</h2>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="flex">
+                <div class="bloc-1-2 gutter">
+                    <h3>Vous avez des questions ?</h3>
+                    <p>Utilisez ce formulaire pour contacter Cécilia. Vous pouvez également lui proposer des recettes qu'elle ne manquera pas de mettre sur son site.</p>
+                    <form>
+                        <fieldset>
+                            <p>
+                                <label class="required" for="nom">Nom</label>
+                                <input id="nom" type="text" name="name" placeholder="Nom *" required></input>
+                            </p>
+
+                            <p>
+                                <label class="required" for="prenom">Prénom</label>
+                                <input id="surname" type="text" name="surname" placeholder="Prénom *" required></input>
+                            </p>
+
+                            <p>
+                                <label class="required" for="mail">E-mail</label>
+                                <input id="mail" type="email" name="email" placeholder="E-mail *" required></input>
+                            </p>
+
+                            <p>
+                                <label class="required" for="phone">Téléphone/ GSM</label>
+                                <input id="phone" type="tel" name="phone" placeholder="Téléphone ou GSM *" required></input>
+                            </p>
+
+                            <p>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="8"></textarea>
+                            </p>
+
+                            <p>
+                                <small>Vos données ne sont pas conservées et sont récoltées uniquement pour répondre à votre demande d'informations. Veuillez consulter notre Politique de confidentialité pour plus d'informations.</small><br>
+                                <label for="politique">
+                                <input id="politique" type="checkbox" name="politique"></input><small>J'accepte votre Politique de confidentialité</small>
+                                </label>
+                            </p>
+
+                            <p>
+                                <input class="btn" type="submit" value="Envoyer">
+                            </p>
+
+                            <p>
+                                <small>* Champs Obligatoires</small>
+                            </p>
+
+                        </fieldset>
+                    </form>
+
+                </div>
+
+                <div class="bloc-1-2">
+                    <h3>Vous souhaitez lui rendre une petite visite ?</h3>
+                    <p>Cécilia propose également des cours de cuisine dans son atelier.</p>
+
+                    <h4>Les cours de cuisine de Cécilia</h4>
+                    <p>Avenue du Vossegat 39, 1180 Uccle (BE)</p>
+                    <!--Insérer une carte map, entrer l'adresse puis clic droit sur le lieu, puis partagez, intégrez une carte iframe, enlever dans le code frameborder="0" style="border:0;"-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.547736263494!2d4.327179815100188!3d50.80248967952545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c5b5d211238f%3A0x549e272a9a6b1c7b!2sAvenue%20du%20Vossegat%2039%2C%201180%20Uccle!5e0!3m2!1sfr!2sbe!4v1605628753671!5m2!1sfr!2sbe" width="460" height="460" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </article>
+
+
+
+</main>
+    
+<footer>
+    <div>
+        <p class="mentions">
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Mentions légales</a>
+        </p>
+
+        <p><small>&copy; 2020 - Mes recettes</small></p>
+
+        <p><a class="toptop" href="#"><i class="fas fa-chevron-up fa-2x"></i></a></p>
+
+   </div>  
+</footer>
+
+
+</body>
+</html>
+
