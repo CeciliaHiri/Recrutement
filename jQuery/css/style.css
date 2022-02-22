@@ -1,0 +1,11 @@
+  
+label {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(238, 230, 198);
+    font-size: 18px;
+}
+
+input{
+    border-color: salmon;
+}

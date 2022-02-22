@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"
+    defer></script>
+    <title>Mon site web MtpCool</title>
+</head>
+
+<body>
+    
+      <header class="banner">
+        <div class="container">
+            <div class="header-banner">
+
+              <h1 class="titreh1"> <a href="./accueil.html" class="retour_accueil"> MTP COOL </h1></a> 
+              <h2 class="titreh2"> Sortir sur Montpellier </h2>
+              <h3 class="titreh3 h5"> Concerts, expositions, théâtre...</h3>
+      </header>
+
+    
+
+    
+  <main class="bg-light">
+            
+              <section class="wrap container justify-content-center">         
+            
+                <div class="row pl-5 ml-2">
+                  <div class="col-4">
+                  <nav role="navigation" class="navbar navbar-expand-md">
+                    <form class="search-bar">
+                      <input role="search" class="form-control" type="search"  placeholder="Chercher un événement..."
+                        aria-label="Search">
+                    </form>
+                  </nav>
+                  </div>
+         
+
+
+              <div class="col-5 pt-3">
+
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input custom-radio" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                  <label class="form-check-label" for="inlineRadio1" id="inlineRadioLabel1">Expositions</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2" id="inlineRadioLabel2">Concerts</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                  <label class="form-check-label" for="inlineRadio3" id="inlineRadioLabel3">Théâtres</label>
+                </div>
+                
+              </div>
+            
+              <div class="col-3">
+                <button type="button" class="btn-annonce btn btn-outline-info mt-2">Annonces</button>
+              </div>
+     
+                </div>  
+             
+            </div>
+    
+            </div>
+        </div>
+    
+            </section>          
+
+
+
+
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+     
+      <!-- Jour 1 -->
+      <section id="day1" class="container-fluid my-2">
+
+        <h2 class="h6 m-1">Lundi 26/04</h2>
+        <hr class="m-1">
+  
+        <div class="d-flex flex-row flex-nowrap overflow-auto">
+  
+          <div class="card card-block justify-content-end card-concert">
+            <div class="card-content d-flex justify-content-between align-items-center">
+              <h3 class="text-white my-1">Nom Event</h3>
+              <a class="btn btn-sm btn-outline-light">Réserver</a>
+            </div>
+          </div>
+  
+          <div class="card card-block justify-content-end card-expo">
+            <div class="card-content d-flex justify-content-between align-items-center">
+              <h3 class="text-white my-1">Nom Event</h3>
+              <a class="btn btn-sm btn-outline-light">Réserver</a>
+            </div>
+          </div>
+  
+          <div class="card card-block justify-content-end card-theatre">
+            <div class="card-content d-flex justify-content-between align-items-center">
+              <h3 class="text-white my-1">Nom Event</h3>
+              <a class="btn btn-sm btn-outline-light">Réserver</a>
+            </div>
+          </div>
+
+          
+
+              <!-- Début du Carousel -->
+    <div id="carouselInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="ads2.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="ads3.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <!-- <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad3.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad4.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+      </div> -->
+      <a class="carousel-control-prev" href="#carouselInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Fin du Carousel -->
+            </div>
+          </div>
+     
+      </section>  
+
+        
+       <!-- Jour 2 -->
+    <section id="day2" class="container-fluid my-2">
+
+      <h2 class="h6 m-1">Mardi 27/04</h2>
+      <hr class="m-1">
+
+      <div class="d-flex flex-row flex-nowrap overflow-auto">
+
+        <div class="card card-block justify-content-end card-theatre">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+        <div class="card card-block justify-content-end card-concert">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+        <div class="card card-block justify-content-end card-expo">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+         <!-- Début du Carousel -->
+    <div id="carouselInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="ads4.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="ads1.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <!-- <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad3.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad4.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+      </div> -->
+      <a class="carousel-control-prev" href="#carouselInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Fin du Carousel -->
+      </div>
+    </div>
+    </section>
+
+    <!-- Jour 3 -->
+    <section id="day2" class="container-fluid my-2">
+
+      <h2 class="h6 m-1">Mercredi 28/04</h2>
+      <hr class="m-1">
+
+      <div class="d-flex flex-row flex-nowrap overflow-auto">
+
+        <div class="card card-block justify-content-end card-expo">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+        <div class="card card-block justify-content-end card-theatre">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+        <div class="card card-block justify-content-end card-concert">
+          <div class="card-content d-flex justify-content-between align-items-center">
+            <h3 class="text-white my-1">Nom Event</h3>
+            <a class="btn btn-sm btn-outline-light">Réserver</a>
+          </div>
+        </div>
+
+        
+              <!-- Début du Carousel -->
+    <div id="carouselInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="ads1.png" class="img-carousel d-block w-100" alt="publicitité 1 pièce de théâtre de....">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="ads4.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <!-- <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad3.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="./images/ad4.png" class="img-carousel d-block w-100" alt="...">
+        </div>
+      </div> -->
+      <a class="carousel-control-prev" href="#carouselInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Fin du Carousel -->
+            </div>
+          </div>
+
+    </section>
+
+
+    </div>
+
+  </div>
+
+  </main>
+
+  <footer role="contentinfo" class="bg-light">
+
+    <hr class="hr-footer m-0">
+
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-4">
+          <a href="" class="mb-2">Contact</a>
+          <a href="" class="d-flex">Mentions légales</a>
+        </div>
+        <div class="col-4">
+          <a href="">Politique de confidentialité</a>
+        </div>
+        <div class="col-4">
+          <a href="" class="btn-footer btn btn-warning btn-lg">Nos partenaires</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

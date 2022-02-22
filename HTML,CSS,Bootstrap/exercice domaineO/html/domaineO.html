@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="domaine d'art,spectacles, festivals,théâtre,musique,cirque,danse et sorties à Montpellier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow"> <!-- SEO: indexer la page-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./../css/domaineO.css"> 
+    <link rel="stylesheet" href="./../css/domaineO_accessibilite.css"> 
+
+
+    <title>Domaine d'O Exercice Bootstrap - travail à rendre avant mai</title>
+</head>
+<!-- commentaires en vert pour le SEO car je n'ai pas le temps de tout faire
+  corriger quelques fautes après avoir passé le code HTML dans validator W3C
+  rajouter plus de balises titre sur les  balises h
+  il faudrait rajouter du texte pour mettre plus de mots-clés 
+  mettre tous les liens
+  remplacer les px en rem
+  faire la description de toutes les images
+  compléter la rubrique partenaire pour générer du trafic
+  faire une page contact avec un formulaire de contact etc...'
+
+-->
+<body>
+
+  <ul class="access" id="skip-nav">
+    <li><a href="#barre-de-navigation">Barre de navigation</a></li>
+    <li><a href="#menu-de-navigation">Menu de navigation</a></li>
+    <li><a href="#contenu-principal-infos-spectables">Contenu principal informations spectacles</a></li>
+    <li><a href="#infos-pratiques">Infos pratiques</a></li>
+  </ul>
+
+  
+
+    <header role="navigation" id="barre-social-media">
+        <!-- column 1 (12/3=4)-->
+        <div class="row justify-content-md-center">
+        <div class="col-10 ">
+        <div class="row py-4">
+            <div class="col-4">
+              <!-- mettre les liens social media pour le SEO -->
+                <ul class="ul-icons d-flex list-unstyled remove-padding ">
+                    <li><i class="fab fa-facebook-f pr-2"></i></li>
+                    <li><i class="fab fa-twitter pr-2"></i></li>
+                    <li><i class="fab fa-youtube pr-2"></i></li>
+                    <li><i class="fab fa-tripadvisor pr-2"></i></li>
+                </ul>
+            </div>
+        
+                
+            <div class="col-4 bg-grey">
+                    <img src="./../images/logo-domainedo.png" alt="image et lien partenariat Métropole Montpellier ">
+
+            </div>
+
+            <div class="col-4">
+              <button type="button" class="btn btn-outline-light font-weight-bold btn-sm"><i class="far fa-bell mr-2"></i>NOTIFICATIONS</button>
+              <button type="button" class="btn btn-outline-warning font-weight-bold btn-sm"><i class="fas fa-bookmark mr-2"></i>ABONNEMENT</button>
+            </div>    
+
+            
+        </div>
+        
+        <!-- column 12-->
+    
+        <div role="navigation" id="barre-de-navigation">
+            <div class="navbar-collapse">
+              <div class="row">
+
+
+              <!-- colonne 12/6=2  navigation catégories spectacles-->
+             
+              <!-- SEO: mettre les liens à jour quand les pages seront existantes-->
+
+                <ul role="navigation" id="menu-de-navigation"class="col-2 nav-item d-flex list-unstyled">
+                  <a href="#">
+                  <span class="title-menu">MENU</span>
+                  <span class="icon-menu"><i class="fas fa-bars"></i></span> 
+                  </a>
+                </ul>
+
+
+                <ul class="col-2 nav-item d-flex list-unstyled">
+                  <li class="spectacles font-weight-bold disabled">
+                    <a href="#" id="text-body"class="text-decoration-none" >SPECTACLES</a>
+                  </li> 
+                </ul>
+
+                <ul class="col-2 nav-item d-flex list-unstyled">
+                  <li class="zoom font-weight-bold">
+                    <a href="#" id="text-body" class="text-decoration-none" >ZOOM-SUR</a>
+                  </li> 
+                </ul>
+
+                <ul class="col-2 nav-item d-flex list-unstyled">
+                  <li class="public font-weight-bold">
+                    <a href="#" id="text-body" class= "text-decoration-none" >AVEC LE PUBLIC</a>
+                  </li> 
+                </ul>
+
+                <ul class="col-2 nav-item d-flex list-unstyled">
+                  <li class="pratique font-weight-bold">
+                    <a href="#" id="text-body"class="text-decoration-none" >PRATIQUE</a>
+                  </li> 
+                </ul>
+
+               
+                <ul role="search" id="barre-de-recherche" class="col-2 nav-item d-flex list-unstyled justify-content-center">
+                  <li><i class="fas fa-search"></i></li>
+                </ul>
+                
+                
+            </div>
+          </div> 
+        </div>        
+      </div>
+    </div>
+    </header>               
+  
+    
+
+      <!-- Bandeau présentation / calendrier -->
+      <div role="navigation" id="catégories-spectacles "class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <section class="row columns">
+
+            
+              <div class="col-7" id="col-spectacle">
+                <div class="contenu_spectacle container"> 
+                  <!-- doit mettre les éléments à droite - à faire -->
+                <h4 class="title mt-4 ml-3 font-weight-bold">TOUS LES SPECTACLES AU DOMAINE D'O</h4>
+                
+                <!-- SEO: mettre les liens sur chaque bouton  -->
+                <article class="d-flex-row">
+                  <div class="row1 m-3">
+                    <button class="btn-show btn btn-dark mr-3 font-weight-bold">FESTIVAL ARABESQUES 2020</button>
+                    <button class="btn-show btn btn-dark font-weight-bold">FESTIVAL FOLIES D'O 2020</button>
+                  </div>
+
+                  <div class="row2 m-3">
+                    <button class="btn-show btn btn-dark font-weight-bold">FESTIVAL RADIO FRANCE OCCITANIE MONTPELLIER 2019</button>
+                  </div>
+
+                  <div class="row3 m-3">
+                    <button class="btn btn-dark mr-3 font-weight-bold">LE METRO FAIT SON CIRQUE</button>
+                    <button class="btn btn-dark font-weight-bold">LA MÉTROPOLE FAIT SON CINEMA 2020</button>
+                  </div>
+
+                  <div class="row4 m-3">
+                    <button class="btn btn-dark mr-3 font-weight-bold">LES NUITS D'O 2020</button>
+                    <button class="btn btn-dark mr-3 font-weight-bold">PRINTEMPS DES COMÉDIENS 2020</button>
+                    <button class="btn btn-dark font-weight-bold">SAISON 20/21</button>
+                  </div>
+
+                  <div class="row5 m-3">
+                    <button class="btn btn-dark font-weight-bold">SAPERLIPOPETTE 2020</button>
+                  </div>
+
+                 
+                  <div class='boxcheck ml-5 font-weight-bold'>
+                    <input class="form-check-input" type="checkbox" value="" id="boxchecked">
+                    <label class="form-check-label pr-5" for="boxchecked">Théâtre</label>
+                    
+                    <input class="form-check-input" type="checkbox" value="" id="boxchecked">
+                    <label class="form-check-label pr-5" for="boxchecked">Cirque</label>
+  
+                    <input class="form-check-input" type="checkbox" value="" id="boxchecked">
+                    <label class="form-check-label pr-5" for="boxchecked">Danse</label>
+  
+                    <input class="form-check-input" type="checkbox" value="" id="boxchecked">
+                    <label class="form-check-label pr-5" for="boxchecked">Musique</label>
+  
+                    <input class="form-check-input" type="checkbox" value="" id="boxchecked">
+                    <label class="form-check-label pr-5" for="boxchecked">Autre</label>
+  
+                  </div>
+
+                  
+                  <div class="btn-group">
+                    <h7 class="titre ml-2 mt-2  p-1">Vous venez avec des enfants? Spectacles à partir de : </h7>
+                    <button type="button" class="btn-dropdown btn-default dropdown-toggle btn-sm mt-2" data-toggle="dropdown"><i class="text">Scrollable Menu</i><span class="caret"></span></button>
+                    </button>
+                    <ul class="dropdown-menu scrollable-menu text-dark" role="menu">
+                        <li><a href="#">3 mois</a></li>
+                        <li><a href="#">6 mois</a></li>
+                        <li><a href="#">9 mois</a></li>
+                        <li><a href="#">1 an</a></li>
+                        <li><a href="#">2 ans</a></li>
+                        <li><a href="#">3 ans</a></li>
+                        <li><a href="#">4 ans</a></li>
+                        <li><a href="#">5 ans</a></li>
+                        <li><a href="#">6 ans</a></li>
+                        <li><a href="#">7 ans</a></li>
+                        <li><a href="#">8 ans</a></li>
+                        <li><a href="#">9 ans</a></li>
+                        <li><a href="#">10 ans</a></li>
+                        <li><a href="#">11 ans</a></li>
+                        <li><a href="#">12 ans</a></li>
+                        <li><a href="#">13 ans</a></li>
+                        <li><a href="#">14 ans</a></li>
+                        <li><a href="#">15 ans</a></li>
+                        <li><a href="#">16 ans</a></li>
+                        <li><a href="#">17 ans</a></li>
+                        <li><a href="#">18 ans et plus</a></li>
+                    </ul>
+                </div>
+         
+                              
+                  <div class="filter">
+                    <button class="btn-filter btn font-weight-bold mb-3 mt-2 float-right mr-5">FILTRER LES SPECTACLES</button>
+                  </div>
+                        
+              
+                </article>
+                </div>
+              </div>
+                
+              <!-- Column 2 -->
+
+              <div class="col-5" id="col-domainedO">
+                <div class="col-6" id="title-domainedO">
+                
+               
+                <article class="d-flex-column align-middle" >
+                  <h4 class="text-white">LE DOMAINE D'O MOIS PAR MOIS</h4>
+                  <button class= "button-calender btn-light btn-outline-dark font-weight-bold"><i class="far fa-calendar-alt pr-2"></i>LE CALENDRIER</button>
+  
+                </article>
+                </div>
+                
+              </div>        
+                     
+
+
+          </section>
+
+        </div>
+
+      </div>
+    </div>
+      <!-- les fiches spectacles  -->
+      <main role="main" id="contenu-principal-infos-spectables" class="container">
+      <div class="row">
+        <div class="col">
+          <section class="row columns">
+            <div class="row d-flex mt-4">
+              <div class="col-4">
+             
+                <!-- colonne 1 - image 1-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <!-- SEO: faire une description (contenu ciblé et mots-clés) pour chaque image pour améliorer le référencement ex:img1 ci-dessous -->
+              
+              <article class="img1">
+                <div class="card1 flex text-white text-bottom">
+                  <!-- <img src="./../images/image3_stage musique.jpg"  class="img-fluid" alt="image3 pièce de théâtre La Collecte" width="350"> -->
+                    <div class="card1-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5-img1 font-weight-bold">Mer 17 mars 20h00</h5>
+                      <h4 class="card-h4 font-weight-bold">LA COLLECTE</h4>
+                      <p>Une histoire incroyable de fortune entre famille, entre drôlerie, hypocrisie et fantasme...</p>
+                      <h6 class="card-h6-img1">ANNULÉ en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                  
+                    </div>
+            
+                </div>
+              </article>
+
+
+              <!-- colonne 1 - image 2-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img2">
+                <div class="card2 flex text-white text-bottom pt-2 mt-4">
+                  <!-- <img src="./../images/image6_silencecjulien-athonady.jpg"  class="img-fluid" alt="image6 pièce de théâtre Clown" width="350"> -->
+                  <div class="card2-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "btn btn-secondary font-weight-bold btn-sm" >SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">04/11/2021 > 05/11/2021</h5>
+                      <h4 class="card-h4 font-weight-bold">CLOWN</h4>
+                      <h6 class="card-h6">Reporté en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              </article>
+
+              
+              <!-- colonne 1 - image 3-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img3">
+                <div class="card3 flex text-white text-bottom mb-4 pt-2 mt-4">
+                  <!-- <img src="./../images/image9_en-attendant-le-grand-soircpierre-rigo.jpg"  class="img-fluid" alt="image9 cirque En attendant le grand soir" width="350"> -->
+                  <div class="card3-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre-date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">14/04/2021 > 16/04/2021</h5>
+                      <h4 class="card-h4-img3 font-weight-bold">EN ATTENDANT LE GRAND SOIR</h4>
+                      <h6 class="card-h6-img3">ANNULE en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              </article>       
+              </div>   
+               
+
+              <!-- colonne 2 - image 4 (1)-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <div class="col-4">
+              <article class="img4">
+              
+                <div class="card4 flex text-white text-bottom">
+                  <!-- <img src="./../images/image4_dames.jpg"  class="img-fluid" alt="image3 pièce de théâtre Madam" width="350"> -->
+                  <div class="card4-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">Sam 17 avril 20h00</h5>
+                      <h4 class="card-h4 font-weight-bold">MADAM</h4>
+                      <h6 class="card-h6">ANNULE en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              
+              </article>
+
+           
+              <!-- colonne 2 - image 5 (2)-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img 5">
+                <div class="card5 flex text-white text-bottom pt-2 mt-4">
+                  <!-- <img src="./../images/image7_resistecian-grandjean.jpg" class="img-fluid" alt="image6 pièce de théâtre trouve ton chemin" width="350"> -->
+                  <div class="card5-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">14/09/2021 > 20/09/2021</h5>
+                      <h4 class="card-h4 font-weight-bold">RESISTE</h4>
+                      <h6 class="card-h6">Reporté en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+                
+              </article>
+
+            
+             
+              <!-- colonne 2 - image 6 (3)-->
+              <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img 6">
+                <div class="card6 flex text-white text-bottom mb-4 pt-2 mt-4">
+                  <!-- <img src="./../images/image2_visuel_madam6.jpg" class="img-fluid" alt="image2 abonnement théâtre" width="350"> -->
+                  <div class="card6-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">10/09/2020 > 20/04/2021</h5>
+                      <h4 class="card-h4-img3 font-weight-bold">ABONNEZ-VOUS SAISON 20/21</h4>
+                      <h6 class="card-h6-img3">Abonnez-vous à la saison domaine d'O !</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              
+              </article>
+
+              </div>  
+           
+            
+              <!--colonne 3 - image 7 (1)  -->
+              
+               <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <div class="col-4">
+              <article class="img 7">
+                <div class="card7 flex text-white text-bottom">
+                  <!-- <img src="./../images/image5a_my-dead-bird.jpg"  class="img-fluid" alt="image5 pièce de théâtre Poule aux oeufs" width="350"> -->
+                  <div class="card7-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">Lundi 1 avril 19h00</h5>
+                      <h4 class="card-h4 font-weight-bold">POULE AUX OEUFS D'OR</h4>
+                      <h6 class="card-h6">ANNULE en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              
+              </article>
+
+               
+              <!--colonne 3 - image 8 (2)  -->
+               <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img 8">
+                <div class="card8 flex text-white text-bottom pt-2 mt-4">
+                  <!-- <img src="./../images/image8_rebbibia-2c-remi-blasquez_0.jpg"  class="img-fluid" alt="image2 pièce de théâtre Rebibbia" width="350"> -->
+                  <div class="card8-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">06/04/2021 > 09/04/2021</h5>
+                      <h4 class="card-h4 font-weight-bold">REBIBBIA</h4>
+                      <h6 class="card-h6">ANNULE en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                    <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                    <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              
+              </article>
+     
+
+              <!--colonne 3 - image 9 (3)  -->
+               <!-- SEO: mettre les liens sur chaque image, titre par fiche spectacle qui redirige vers la page descriptive de la pièce de théâtre -->
+              <article class="img 9">
+                <div class="card9 flex text-white text-bottom mb-4 pt-2 mt-4">
+                  <!-- <img src="./../images/image1_marie_clauzade.jpg"  class="img-fluid" alt="image1 pièce de théâtre Fatoumata Diawara" width="350"> -->
+                  <div class="card9-img-overlay container pt-2 pb-2">
+
+                    <div class="card-button-season container-fluid">
+                      <button class= "titre_date btn btn-secondary font-weight-bold btn-sm">SAISON 20/21</button>
+                    </div>
+                   
+                    <div class="text-card d-flex-row container-fluid">
+                      <h5 class="card-h5 font-weight-bold">Ven 15 octobre 19h00</h5>
+                      <h4 class="card-h4 font-weight-bold">FATOUMATA DIAWARA</h4>
+                      <h6 class="card-h6">ANNULE en raison de la crise sanitaire</h6>
+                     </div> 
+                   
+                    <div class="card-button-booking d-flex container-fluid">
+                      <a href="#" class="bouton-details btn btn-outline-warning font-weight-bold">DÉTAILS</a>
+                      <a href="#" class="bouton-reserver btn btn-outline-warning font-weight-bold">RÉSERVER</a>
+                    </div>
+                
+                  </div>
+                </div>
+              
+              </article>
+              
+              </div>  
+            </div>
+            
+            
+           </section>
+          
+        </div>
+
+      <hr></hr> 
+      </div>
+
+     
+
+    
+
+    </main>
+    
+    
+    <footer role="contentinfo" id="infos-pratiques" class="footer container">
+        <div class="row d-flex">
+                <ul class="col-md-2 justify-content-center list-unstyled">
+                
+                    <li><a class="lien1 text-body" href="#">Espace technique</a></li>
+                    <li><a class="lien2 text-body" href="#">Espace Multimédia</a></li>
+                    <li><a class="lien3 text-body" href="#">Lettre d'info</a></li>
+                    <li><a class="lien4 text-body" href="#">Partenaires</a></li>
+                    
+                </ul>
+
+              <ul class="col-md-2 list-unstyled">
+                
+                  <li><a class="lien5 text-body" href="#">Crédits</a></li>
+                  <li><a class="lien6 text-body" href="#">Mentions légales</a></li>
+
+                  <!-- pour améliorer le SEO et inciter au trafic, sur lien Contact ==>faire une page formulaire -->
+                  <li><a class="lien6 text-body" href="https://www.domainedo.fr/informations-pratiques">Infos pratiques</a></li>
+                  <li><a class="lien6 text-body" href="#">Contact</a></li>
+              </ul>
+              
+              <ul class="col-md-2">
+                <hr></hr>
+                <!-- SEO : lien google map -->
+                <a href="https://goo.gl/maps/X4GzqsKb9MdaCSMJ8"><h6>Domaine d'O</h6></a>
+                <p>178 rue de la Carriérasse</p>
+                <p>34090 Montpellier</p>
+                <p>Tél. : 0800 200 165</p>
+                
+              </ul>
+
+              <ul class="col-md-6 flex-start">
+                <a href="https://www.montpellier3m.fr/">
+                <img class= "float-right mb-2" src="./../images/logo_montpellier.gif" width="160">
+                </a>
+                <p class= "text-left"><a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27%C3%94_(Montpellier)">Le domaine d'O</a> est un domaine d'art et de spectacles pluridisciplinaire : <strong>théâtre, musique, cirque, danse</strong>, spectacles <strong>jeune public</strong>.<br>
+                  <br>
+                  Il abrite <a href="https://www.domainedo.fr/lieux-de-spectacle/amphitheatre-do">un amphithéâtre</a> de 1800 places, <a href="https://www.montpellier-tourisme.fr/offre/fiche/theatre-jean-claude-carriere/LOILAR034V50UWOV">le théâtre Jean-Claude Carrière</a> de 600 à 1200 places, un bistrot et une pinède de 3 hectares. Le domaine d'O produit une saison culturelle et quatre <strong>festivals</strong> et accueille quatre autres festivals.</p>
+             </ul>
+
+             <!-- SEO : faire une meilleur présentation mais l'idée est d'afficher les partenaires-->
+             <p>Réseaux partenaires, infos & réservations</p>
+             <a href=https://www.fnacspectacles.com/place-spectacle/montpellier-domaine-d-o-salmpdo-lt.html>
+             <img class= "float-right mb-2" src="./../images/Logo-Fnac-PNG.png" width="80">
+             </a><br>
+             <a href=https://www.infoconcert.com/salle/theatre-jean-claude-carriere-a-montpellier---domaine-do-15966/concerts.html>
+              <img class= "float-right mb-2 ml-4" src="./../images/info_concert_logo.jpg" width="80">
+            </a>
+
+        </div>
+
+
+    </footer>
+
+  
+
+</body>
+</html>

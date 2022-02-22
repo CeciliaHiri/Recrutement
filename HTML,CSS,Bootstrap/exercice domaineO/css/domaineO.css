@@ -1,0 +1,394 @@
+
+/* général */
+body, .container-fluid{
+margin: 0px;
+padding: 0px;
+}
+
+.remove-padding{
+    padding-inline-start: 0px;
+}
+
+
+/* général button */
+
+.btn{
+    border-radius: 0%;
+}
+
+/****** header column1 ******/
+
+/* icones social media */
+.ul-icons li:hover{
+    cursor: pointer;
+    color:#F74E2D;
+}
+
+/* buttons notifications et abonnement */
+.btn-outline-light{
+    color:#F74E2D;
+    border-color:#F74E2D; 
+} 
+
+.btn-outline-light:hover{
+    cursor: pointer;
+    color:#F74E2D;
+    border-color:#F74E2D; 
+} 
+
+.btn-outline-warning{
+    color:#F74E2D;
+    border-color:#F74E2D; 
+}
+.btn-outline-warning:hover{
+    cursor: pointer;
+    background-color:#F74E2D;
+    color: white;
+}
+
+/**** naviguation catégories spectacles *****/
+
+/* icone menu */
+.icon-menu{  
+    color:#F74E2D;
+}
+
+.title-menu{
+    position:absolute;
+    font-size: 8px;
+    bottom: -6px;
+    left:4%;
+    color:#F74E2D;
+}
+
+
+
+/**** Bandeau présentation / calendrier ****/
+
+/* colonne spectacle */
+
+.contenu_spectacle{
+    padding-left: 13%;
+}
+
+
+#col-spectacle{
+    background-color: #EFEFEF;
+}
+
+#text-body{
+    color: black;
+}
+
+#text-body:hover {
+    color: #F74E2D;
+    
+}
+/* colonne domained'O */
+#col-domainedO{
+    background-color:#F74E2D;
+    display: flex;
+    align-items: center;
+}
+.remove-padding{
+    padding-inline-start: 0px;
+    padding-right: 2px;
+}
+
+
+#title-domainedO{
+    background-color:#F74E2D;
+}
+
+.button-calender{
+    padding: 5px;
+    margin: 2px;
+    width: 180px;
+    height: 50px;
+}
+
+.button-calender :hover{
+    cursor: pointer;
+    background-color:#000000;
+    border-color: none;
+}
+
+/* buttons catégories spectacles */
+
+.btn-dark:hover{
+    background-color: #F74E2D;
+    border-color: #F74E2D;
+    
+}
+
+
+/* dropdown menu */
+
+.btn btn-light btn-outline-dark{
+    border-radius: 10%;
+    size: 15ch;
+}   
+
+.scrollable-menu {
+    max-height: 200px;
+    overflow-x: hidden;
+    height: auto;
+    
+}
+
+.btn-dropdown{
+    border-color: black;
+    border-radius: 8%;
+    background-color: white;
+}
+
+.text{
+    visibility: hidden;
+}
+
+
+li a{
+ color: black;
+ 
+} 
+
+/* checkbox */   
+
+form-check-input{
+    background-color: #F74E2D;
+    color: #FF0000;
+}
+
+
+/* bouton filtre */
+
+.btn-filter{
+    background-color:#F74E2D;
+    color: white;
+    border-color: #F74E2D;
+}
+
+.btn-filter:hover{
+    background-color:#000000;
+    border-color: #000000;
+    color: white;
+}
+
+/* fiches spectacles */
+
+.card{
+    border-radius: none;
+    border-color: none;
+    border:none;
+}
+
+
+.btn-secondary{
+   background-color: black;
+   border-radius: 0%;
+   border-color: black;
+   font-size: 10pt;
+    
+}
+.btn-secondary:hover{
+    cursor: pointer;
+    background-color:white ;
+    color: black;
+    border-color: white;
+}
+
+.bouton-details{
+    background-color: white;
+    align-content: flex-end;
+    
+}
+
+.bouton-details:hover{
+    border-color: #F74E2D;
+}
+
+.bouton-reserver{
+    background-color: #F74E2D;
+    color: white;
+    align-content: flex-end;
+}
+
+.bouton-reserver:hover{
+    cursor: pointer;
+    background-color:white;
+    color:#F74E2D;
+    
+}
+
+.card-button-booking{
+    display: block;
+    justify-content: space-between; 
+    
+}
+
+h5{
+    margin-top: 245px;
+    text-decoration: underline #F74E2D 6px;
+}
+
+h5:hover{
+    opacity: 0.6;
+}
+
+.h4-img3{
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+
+h4:hover{
+    opacity: 0.6;
+}
+
+h6{
+    margin-bottom:32px;
+}
+
+.card-h6{
+    color: #FF0000;
+} 
+
+.card-h6-img3{
+    color: #FF0000;
+    margin-bottom: 5px;
+}
+
+.img-fluid{
+    display: block;
+}
+
+
+.card1{
+    background-image: url(./../images/image3_stage\ musique.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card1:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card2{
+    background-image: url(./../images/image6_silencecjulien-athonady.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card2:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card3{
+    background-image: url(./../images/image9_en-attendant-le-grand-soircpierre-rigo.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card3:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card4{
+    background-image: url(./../images/image4_dames.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card4:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card5{
+    background-image: url(./../images/image7_resistecian-grandjean.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card5:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card6{
+    background-image: url(./../images/image2_visuel_madam6.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card6:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card7{
+    background-image: url(./../images/image5a_my-dead-bird.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card7:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card8{
+    background-image: url(./../images/image8_rebbibia-2c-remi-blasquez_0.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card8:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+.card9{
+    background-image: url(./../images/image1_marie_clauzade.jpg);
+    width: "360";
+    height: "500";
+}
+
+.card9:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e2dddd;
+    transform: scale(1.01);    
+}
+
+/* image 1 pour le SEO avec description image */
+
+
+.card-h5-img1{
+    margin-top: 200px;
+}
+
+.card-h6-img1{
+    color: #FF0000;
+    margin-bottom: 13px;
+}
+
+/* ligne horizonatle */
+hr{
+    size: 2;
+    width: 100%;
+    background-color: black;
+}

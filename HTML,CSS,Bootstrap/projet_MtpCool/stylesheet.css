@@ -1,0 +1,201 @@
+/* on a pas fait l'accesibilité et le référencement par manque de temps */
+
+/* global */
+body,.btn-annonce,.btn-footer{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* banner */
+
+header {
+    background-image: url(montpellier-by-night.jpg);
+    height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}  
+
+.text_header{
+    padding-top: 7%;
+    padding-left: 5%;
+} 
+  
+.titreh1 {
+    color: #74AFF6;
+    font-size: 70px;
+}
+.titreh2 {
+    background: rgba(33, 37, 28, 0.4);
+    color: white;
+    font-size: 32px;
+    width: 30%;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+  
+.titreh3 {
+    background: rgba(33, 37, 28, 0.4);
+    color: white;
+    width: 22%;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+/* search bar */
+
+.navbar {
+    width: 100%;
+}
+  
+  .search-bar {
+    width: 100%;
+}
+
+/* nav button bar */
+
+.form-control {
+    border-radius: 25%;
+    box-shadow: 1px 1px 8px #555;
+  }
+  
+.form-check-label {
+    font-weight: bold;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0;
+}
+  
+#inlineRadioLabel1 {
+    color: #D81E5B;
+    font-size: 18px;
+}#inlineRadioLabel2 {
+    color: #255C99;
+    font-size: 18px;
+}#inlineRadioLabel3 {
+    color: #70A288;
+    font-size: 18px;
+}
+
+.btn-annonce{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    
+}
+
+
+/* main */
+
+/* jours */
+
+hr{
+    width:68%;
+}
+
+/* cards */
+
+.card-concert,.card-expo,.card-theatre {
+    min-height: 160px !important;
+    min-width: 240px !important;
+    padding: 2%;
+    padding-left: 8%;
+    margin-right: 2%;
+}
+  
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 30%,
+      black 100%
+    );
+} 
+
+.card h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    z-index: 1;
+}
+  
+.card a {
+    z-index: 1;
+}
+  
+.card-concert {
+    background-image: url(concert1.jpg);
+    background-size: contain;
+}
+  
+.card-concert::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 100%;
+    background: #255C99;
+    opacity: 0.7;
+}
+  
+.card-expo {
+    background-image: url(expo1.jpg);
+    background-size: contain;
+}
+  
+.card-expo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 100%;
+    background: #D81E5B;
+    opacity: 0.7;
+}
+  
+.card-theatre {
+    background-image: url(theatre1.jpg);
+    background-size: contain;
+}
+  
+.card-theatre::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 100%;
+    background: #70A288;
+    opacity: 0.7;
+}
+  
+/* footer */
+
+footer a {
+    color: black;
+    font-size: 0.8em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.hr-footer{
+    width: 100%;
+}
+
+  

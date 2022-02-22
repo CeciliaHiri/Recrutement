@@ -1,0 +1,11 @@
+/* accessibilité 767px  et 962 px pour le max*/
+@media screen and (min-width:47.9375em) and (max-width:62rem)   {
+    .col-4{
+        width: 28.875rem;
+    }
+
+    img{
+        width: auto;
+    }
+}
+

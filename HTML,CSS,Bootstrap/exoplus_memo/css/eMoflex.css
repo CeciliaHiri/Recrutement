@@ -1,0 +1,68 @@
+
+.logo-title{
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li{
+    font-size: 1.5em;
+    margin:0 10px;
+}
+
+.add{
+    background-color: green;
+}
+
+
+.main-nav{
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.columns{
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-around;
+    
+}
+
+ 
+.card{
+    background-color: grey;
+    border-radius: 10px;
+    
+
+.column{
+    flex-basis: 23%;
+}
+
+.btn{
+    background-color: yellow;
+    border-radius: 10px;
+    border:none;   
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+footer>button{
+    color: white;
+}

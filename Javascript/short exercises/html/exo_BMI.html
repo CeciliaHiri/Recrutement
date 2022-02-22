@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./../js/exo_BMI.js"></script>
+</head>
+<body>
+    <form>
+    <input type ="text" placeholder="taille" size="1.73"/>
+    <input type ="text" placeholder="poids" weight="69"/>
+    <input type="submit" value="Calcul de votre indice corporelle"/>
+    </form>
+
+
+<script>
+    let taille=1.73
+    let poids=69
+    let BMI=poids/(taille*taille)
+
+function afficher(){
+    window.alert("Votre Indice de masse corporelle est de : " + BMI);
+}
+
+afficher();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+#skip-nav a{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    overflow: hidden;
+    border: 1px solid red;
+    position: absolute;
+    color: white;
+
+    
+}
+
+#skip-nav a:focus-visible{
+    position: auto;
+    clip: auto;
+    overflow: auto;
+    border:1px solid blue;
+    color: orangered;
+    color: #f74e2d;
+}  
+
+li a{
+    color: white;
+}
+
+.access {
+    position: absolute;
+    list-style: none;
+  }
+  
+  .access a {
+    color: white;
+  }
+  
+  .access a:focus-visible {
+    color: #f74e2d;
+  }
+  
+/* ul{
+    list-style: none;
+} */
+   

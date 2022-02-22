@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex JS - FR/EN</title>
+   
+</head>
+<body>
+    <p> Choisissez votre langue
+    <ul>
+        
+        <a href="link" onclick="if(confirm('vous avez choisi le FR'))langue='FR';return false">Français</a>
+        <a href="link" onclick="if(confirm('vous avez choisi le EN'))langue='EN';return false">Anglais</a>
+        <a href="link" onclick="choixLangue(); return false">Hello</a>
+    </ul>
+    </p>
+
+    <script>
+        let Hello=" ";
+        let prenom="Cecilia";
+        let nom="Hiribarne";
+
+        let FR="FR";
+
+
+    function choixLangue() {
+        if (langue == "FR") {
+            window.alert("Bonjour" + " " + prenom + " " + nom);
+        } else {
+            window.alert("Hello" + " " + prenom + " " + nom);
+        }
+    }
+
+ 
+
+    </script>
+
+
+
+</body>
+</html> 
